@@ -1,0 +1,11 @@
+server:
+  port: "8000"
+  currencyUpdate: 5m
+
+db:
+  host: "host.docker.internal"
+  port: 5432
+  username: "postgres"
+  dbname: "telegram_bot"
+  sslmode: "disable"
+  pool_max_conns: 10
